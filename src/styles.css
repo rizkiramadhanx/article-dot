@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  color: black;
+}
+
+.borderRed {
+  border: 2px solid crimson;
+}
+
+*:focus {
+  outline: none;
+}
+
+form div input {
+  width: 100%;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+form {
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 70%;
+  display: flex;
+}
+input {
+  height: 20px;
+}
+
+select {
+  height: 30px;
+}
+.submitbtn {
+  background-color: #29ab00;
+  border-color: transparent;
+  color: white;
+}
